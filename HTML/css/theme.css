@@ -404,7 +404,7 @@ html #header.header-semi-transparent .header-body:before, html #header.header-se
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: #000;
+	background: #FFFFFF;
 	border-bottom: 0;
 	opacity: 0.3;
 	-webkit-transition: opacity 0.3s ease;
@@ -472,7 +472,7 @@ html:not(.sticky-header-active) #header.header-transparent-sticky-deactive .head
 
 	#header .header-nav-main nav > ul > li > a {
 		display: inline-block;
-		border-radius: 4px;
+		border-radius: 0;
 		font-size: 12px;
 		font-style: normal;
 		font-weight: 700;
