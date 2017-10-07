@@ -4949,9 +4949,38 @@ html.boxed .pricing-table .plan, html.boxed .pricing-table h3 {
 	width: 35px;
 }
 
+.feature-box .feature-box-number {
+	/*background: #CCC;*/
+	color: #9E0032;
+	display: inline-block;
+	float: left;
+	height: 40px;
+    line-height: 40px;
+	margin-right: 10px;
+	position: relative;
+	text-align: right;
+	top: 5px;
+	width: 85px;
+	font-size: 50px;
+}
+
+.feature-box-number + .feature-box-info {
+	padding-left: 85px;
+}
+
+.feature-box-icon + .feature-box-info {
+	padding-left: 50px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+/*
 .feature-box .feature-box-info {
 	padding-left: 50px;
 }
+*/
 
 /* Style 2 */
 .feature-box.feature-box-style-2 h4 {
