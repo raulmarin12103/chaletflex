@@ -4,9 +4,27 @@
 }
 
 .feature-box {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
-.col-sm-6 .feature-box:last-child {
-    padding-bottom: 0;
+.feature-box .feature-box-icon {
+    margin-left: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .feature-box .feature-box-icon {
+        margin-left: 0;
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+
+    .feature-box {
+        padding-bottom: 30px;
+    }
+
+    .col-sm-6 .feature-box:last-child {
+        padding-bottom: 0;
+    }
+    
 }
